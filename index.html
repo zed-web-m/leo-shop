@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Glasses Shop</title>
+	<meta name="description" content="Glasses-shop">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="img/favicon.png">
+	<meta property="og:image" content="img/dest/preview.jpg">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+
+	<header>
+
+		<div class="head-first">
+			<div class="container">
+
+				<div class="head-wrap-chang">
+					<div class="change-toggle" tabindex="0">
+						 <span>Language: English</span>
+						 <ul>
+							 <li><a href="#">English</a></li>
+							 <li><a href="#">Russian</a></li>
+							 <li><a href="#">Ukrainian</a></li>
+						 </ul>
+					</div>
+					<div class="change-toggle" tabindex="0">
+						<span>Currency: USD</span>
+						<ul>
+							<li><a href="#">USD</a></li>
+							<li><a href="#">EURO</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="btn-open head-wrap-acc-icon"><img src="img/dest/icon/user.svg" alt="user"></div>
+				<ul class="head-wrap-acc">
+					<li><a href="#">Account</a></li>
+					<li><a href="#">Wishlist</a></li>
+					<li><a href="#">Checkout</a></li>
+					<li><a href="#">Log In</a></li>
+					<li><a href="#">Sign Up</a></li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="main-head">
+			<div class="container">
+
+				<div class="logo"><a href="/">Leo Shop</a></div>
+
+				<nav class="main-head-menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Women</a></li>
+						<li><a href="#">Men</a></li>
+						<li><a href="#">Other</a></li>
+						<li><a href="#">Purchase</a></li>
+					</ul>
+				</nav>
+
+				<form class="search">
+						<input type="search" placeholder="Search..">
+						<button id="searchForm" class="search-btn"><img src="img/dest/icon/search.svg" alt="search"></button>
+				</form>
+
+				<div class="main-head-basket">
+					<div class="item-basket" tabindex="0">
+							<div class="bg-basket"><img src="img/dest/icon/basket.svg" alt="basket"></div>
+							Cart <span class="cart__quantity">0</span>
+							<div class="basket-content">
+								<ul class="basket-content-list">
+								</ul>
+								<div class="basket-content-bottom">
+									<div class="basket-content-fullprice">
+										<span>Total</span>
+										<span class="fullprice">333 $</span>
+									</div>
+									<button class="basket-content-add btn" data-graph-path="modal" data-graph-animation="fadeInUp">go to cart</button>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="menu_button">
+					<span class="span-2"></span>
+					<span class="menu_text_bar"></span>
+				</div>
+
+			</div>
+		</div>
+
+	</header>
+
+	<div class="swiper-container headslider">
+		<div class="swiper-wrapper">
+
+			<div class="swiper-slide" style="background-image: url(img/dest/slide-1.jpg)">
+				<span>ALUMINUM CLUB</span><span>Experience Ray-Ban</span>
+			</div>
+			<div class="swiper-slide" style="background-image: url(img/dest/slide-2.jpg)">
+				<span>ALUMINUM CLUB</span><span>Experience Ray-Ban</span>
+			</div>
+			<div class="swiper-slide" style="background-image: url(img/dest/slide-3.jpg)">
+				<span>ALUMINUM CLUB</span><span>Experience Ray-Ban</span>
+			</div>
+		</div>
+
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	</div>
+
+	<div class="products-wrapper">
+		<div class="container">
+
+		<div class="products-wrapper-full">
+			<section class="section-wrapper">
+				<h1 class="section-wrapper-disc">Featured Products</h1>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-1.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Browline Glasses</p>
+						<span class="cart-product-price">50 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-new">new</div>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-2.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Haight-Ashbury</p>
+						<span class="cart-product-price">50 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-3.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Hepburn</p>
+						<span class="cart-product-price">100 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-sale">sale</div>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-4.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">St Michel</p>
+						<span class="cart-product-price">388 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-5.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Ray-Ban RB3447V</p>
+						<span class="cart-product-price">148 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-new">new</div>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-6.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Ray-Ban RB7025</p>
+						<span class="cart-product-price">112 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-7.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Ray-Ban RB7140</p>
+						<span class="cart-product-price">150 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-8.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Oakley Barrelhouse 0.5</p>
+						<span class="cart-product-price">100 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-2.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Ray-Ban RB5283</p>
+						<span class="cart-product-price">120 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-sale">sale</div>
+				</div>
+
+			</section>
+
+			<section class="section-wrapper">
+				<h1 class="section-wrapper-disc">Staff pick</h1>
+				
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-1.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Oakley Marshal Mnp</p>
+						<span class="cart-product-price">115 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-new">new</div>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-3.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Oakley Latch SS</p>
+						<span class="cart-product-price">160 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-4.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Ray-Ban RB2447V</p>
+						<span class="cart-product-price">200 $</span>
+					</div>
+					<button class="cart-basket"></button>
+				</div>
+				
+			</section>
+
+			<section class="section-wrapper">
+				<h1 class="section-wrapper-disc">New Products</h1>
+				
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-5.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Ray-Ban RB3547V</p>
+						<span class="cart-product-price">244 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-new">new</div>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-6.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Oakley Base Plane</p>
+						<span class="cart-product-price">500 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-new">new</div>
+				</div>
+
+				<div class="product">
+					<div class="card-img"><img src="img/dest/glasses-7.png" alt="alt"></div>
+					<div class="product-disc">
+						<p class="cart-product-disc">Oakley Trillbe X</p>
+						<span class="cart-product-price">300 $</span>
+					</div>
+					<button class="cart-basket"></button>
+					<div class="product-lable product-new">new</div>
+				</div>
+				
+			</section>
+		</div>
+
+		<aside class="aside-right">
+
+			<div class="swiper-container featured-slider">
+				<div class="swiper-wrapper">
+		
+					<div class="swiper-slide" style="background-image: url(img/dest/side-1.jpg)">
+						<h2>Featured Glass</h2>
+						<a href="#" class="slide-check">Check it Out</a>
+					</div>
+					<div class="swiper-slide" style="background-image: url(img/dest/slide-2.jpg)">
+						<h2>New Glass</h2>
+						<a href="#" class="slide-check">Check it Out</a>
+					</div>
+					<div class="swiper-slide" style="background-image: url(img/dest/slide-3.jpg)">
+						<h2>Staff Glass</h2>
+						<a href="#" class="slide-check">Check it Out</a>
+					</div>
+				</div>
+
+				<div class="swiper-pagination"></div>
+		
+			</div>
+
+			<form class="newsletters">
+				<h2>newsletters signup</h2>
+				<label for="email">Subscribe so you don't miss the news</label>
+				<input id="email" type="email" required maxlength="50" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" >
+				<input type="submit" class="btn" value="Subscribe" />
+			</form>
+
+		</aside>
+
+		</div>
+	</div>
+
+	<footer>
+
+		<div class="call-us">
+			<div class="container">
+				<div class="call-us-item"><img src="img/dest/icon/truck.svg" alt="alt">Free shipping on orders over $100</div>
+				<div class="call-us-item"><img src="img/dest/icon/phone-call.svg" alt="alt">call us! toLl free 409-8888-0099</div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="block-facebook">
+				<div class="block-facebook-wrap">
+					<h3>Facebook</h3>
+					<span>20000 Members</span>
+					<div class="facebook-gallery">
+						<img src="img/dest/client1.jpg" alt="alt">
+						<img src="img/dest/client2.jpg" alt="alt">
+						<img src="img/dest/client3.jpg" alt="alt">
+						<img src="img/dest/client2.jpg" alt="alt">
+						<img src="img/dest/client3.jpg" alt="alt">
+						<img src="img/dest/client1.jpg" alt="alt">
+						<img src="img/dest/client3.jpg" alt="alt">
+						<img src="img/dest/client1.jpg" alt="alt">
+					</div>
+				</div>
+			</div>
+
+			<div class="block-twitter">
+				<div class="block-twitter-wrap">
+					<h3>From twitter</h3>
+					<div class="twitter-comment">
+						<img src="img/dest/icon/twitter.svg" alt="alt">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+					</div>
+					<div class="twitter-comment">
+						<img src="img/dest/icon/twitter.svg" alt="alt">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="block-information">
+				<div class="block-information-wrap">
+					<h3>information</h3>
+					<ul>
+						<li><a href="#"> > About Us</a></li>
+						<li><a href="#"> > Press Room</a></li>
+						<li><a href="#"> > Contact Us</a></li>
+						<li><a href="#"> > Site Map</a></li>
+						<li><a href="#"> > Shipping & Returns</a></li>
+						<li><a href="#"> > Our Vision Experts</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="contacts">
+				<div class="contacts-wrap">
+					<h3>Contact Us</h3>
+					<ul>
+						<li>Leo Store</li>
+						<li>Leopards media</li>
+						<li>KVM Rpad, 4590GH</li>
+						<li>+1 489-8888-0099</li>
+						<li>mail@email.com</li>
+					</ul>
+					<div class="social">
+						<a href="#"><img src="img/dest/icon/linkedin.svg" alt="alt"></a>
+						<a href="#"><img src="img/dest/icon/rss.svg" alt="alt"></a>
+						<a href="#"><img src="img/dest/icon/facebook.svg" alt="alt"></a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<p>© Copyright 2020, All Rights Reserved.</p>
+				<ul class="copyright-links">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Delivery & Returns</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Contact Us In</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="modal">
+		<div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
+			<div class="modal-content order-modal-content">
+				<div class="order-modal-top">
+					<h2 class="order-modal-title">Ordering</h2>
+					<span class="order-modal-number">Order No. 31</span>
+				</div>
+				<div class="order-modal-info">
+					<div class="order-modal-quantity order-modal-info-item">Items in order: <span></span></div>
+					<div class="order-modal-summ order-modal-info-item">Total amount: <span></span></div>
+					<div class="order-modal-products order-modal-info-item">
+						<button class="order-modal-btn">Order list</button>
+						<ul class="order-modal-list">
+						</ul>
+					</div>
+				</div>
+				<form action="#" class="order-modal-form order">
+					<label class="order-label">
+						<span class="order-text">Name</span>
+						<input type="text" class="order-input">
+					</label>
+					<label class="order-label">
+						<span class="order-text">telephone</span>
+						<input type="tel" class="order-input" placeholder="+33 (__)___-___-__">
+					</label>
+					<label class="order-label">
+						<span class="order-text">email</span>
+						<input type="email" class="order-input" placeholder="g@mail.com">
+					</label>
+					<button class="order-btn btn">Checkout</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
